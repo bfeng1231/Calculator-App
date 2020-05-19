@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Oxanium:400,700&display=swap");
+
+.App {
+  font-family: "Oxanium";
+  background: lightslategray;
+  min-height: 100vh;
+}
+
+.screen {
+  background: ivory;
+  text-align: right;
+  min-height: 40px;
+  border-style: inset;
+  border-width: 5px;
+  border-color: orange;
+  width: 2.2in;
+  padding-top: 3px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
+  padding: 20px 20px 30px 20px;
+}
+
+.calc {
+  margin-left: 35px;
+  padding-bottom: 20px;
+}
+
+.last-col {
+  margin-left: 30px;
+}
+
+h3 {
+  text-shadow: -1px 0 ivory, 0 1px ivory, 1px 0 ivory, 0 -1px ivory;
+  font-size: 36px;
+}
+
+.history {
+  background: ivory;
+  min-height: 2.8in;
+  width: 2.7in;
+  border-style: inset;
+  border-width: 5px;
+  border-color: orange;
+  padding-top: 15px;
+}
+
+.btn {
+  border-style: outset;
+  border-width: 5px;
+  margin: 1px;
+  text-align: center;
+}
+
+.clear {
+  margin: 5px;
+  border-style: outset;
+  border-width: 5px;
+}
